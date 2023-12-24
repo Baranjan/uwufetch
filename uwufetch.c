@@ -309,7 +309,8 @@ void uwu_name(struct info* user_info) {
   else STRING_TO_UWU("ubuntu", "Uwuntu");
   else STRING_TO_UWU("void", "OwOid");
   else STRING_TO_UWU("xerolinux", "xuwulinux");
-
+  else STRING_TO_UWU("kalilinux","kawailinux");
+  else STRING_TO_UWU("parrotos","pawwot OwOs");
   // BSD
   else STRING_TO_UWU("freebsd", "FweeBSD");
   else STRING_TO_UWU("openbsd", "OwOpenBSD");
@@ -434,7 +435,7 @@ void uwu_pkgman(char* pkgman_name) {
   LOG_I("uwufing package managers")
 #define PKGMAN_TO_UWU(original, uwuified) replace_ignorecase(pkgman_name, original, uwuified);
   // these package managers do not have edits yet:
-  // apk, apt, guix, nix, pkg, xbps
+  // pkg, xbps
   PKGMAN_TO_UWU("brew-cask", "bwew-cawsk");
   PKGMAN_TO_UWU("brew-cellar", "bwew-cewwaw");
   PKGMAN_TO_UWU("emerge", "emewge");
@@ -442,6 +443,10 @@ void uwu_pkgman(char* pkgman_name) {
   PKGMAN_TO_UWU("pacman", "pacnyan");
   PKGMAN_TO_UWU("port", "powt");
   PKGMAN_TO_UWU("snap", "snyap");
+  PKGMAN_TO_UWU("apk", "awwwpk");
+  PKGMAN_TO_UWU("apt","pawpt");
+  PKGMAN_TO_UWU("guix", "guwuix");
+  PKGMAN_TO_UWU("nix", "nyanx");
 #undef PKGMAN_TO_UWU
 }
 
